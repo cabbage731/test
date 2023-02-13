@@ -10,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('3|2|1|梁璇||❤|');
+      S.UI.simulate('3|2|1|哈哈哈哈||❤|');
     }
 
     S.Drawing.loop(function () {
